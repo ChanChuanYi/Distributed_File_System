@@ -1,12 +1,12 @@
 # Distributed_File_System
 
-#README.txt
-#CMPE 156 Winter 2017 
-#Final Project
-#Chuan-Yi Chan
-#cchan88@ucsc.edu
+# README.txt
+# CMPE 156 Winter 2017 
+# Final Project
+# Chuan-Yi Chan
+# cchan88@ucsc.edu
 
-File List:
+## File List:
 	Makefile - simple Makefile. Execute with "make" for ftpserver and "make ftpclient" for ftpclient to compile the program
 	ftpserver.c - FTP server main program
 	server_help.c - several helper function that is used in the FTP server main program,
@@ -15,8 +15,11 @@ File List:
 	client_help.c - several helper function that is used in the FTP client main program,
 	                including file sending, file reading and file list reading.
 
-How to run the program:
-	Server: run with "./ftpserver <port-num>"
+## How to run:
+	Server: run with 
+	```
+	./ftpserver <port-num>
+	```
 	Client: run with "./ftpclient <IP-address> <port-num>"
 
 What is not completed:
