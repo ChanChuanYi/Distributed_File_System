@@ -24,5 +24,5 @@ Client: run with
 * Client:
 Client concurrency is not implemented. User can only enter next command after the previous command finishes.
 * Server:
-FTP server can accept multiple connection and the same time. However, it can only receive next command until the previous one is done, which means "ABOR" cannot abort current file transmission.
+FTP server can accept multiple connection a the same time. However, it can only receive next command until the previous one is done, which means "ABOR" cannot abort current file transmission.
 
