@@ -19,6 +19,26 @@ Client: run with
 ```
 "./ftpclient <IP-address> <port-num>"
 ```
+## FTP Interface:
+The client code start and gives a user interface prompt waiting for user commands.
+Commands include:
+* List current directory or file name
+```
+ls [<filename>]
+```
+* Send file to server
+```
+put <filename>
+```
+* Get file from server
+```
+get <filename>
+```
+* Exit the user interface
+```
+quit
+```
+
 ## Issues:
 * Client:
 Client concurrency is not implemented. User can only enter next command after the previous command finishes.
