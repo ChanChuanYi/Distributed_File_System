@@ -1,10 +1,11 @@
-# Distributed_File_System
+# Project Title
+A Distributed File Sharing System
 
-# README.txt
-# CMPE 156 Winter 2017 
-# Final Project
-# Chuan-Yi Chan
-# cchan88@ucsc.edu
+#README.txt
+#CMPE 156 Winter 2017 
+#Final Project
+#Chuan-Yi Chan
+#cchan88@ucsc.edu
 
 ## File List:
 	Makefile - simple Makefile. Execute with "make" for ftpserver and "make ftpclient" for ftpclient to compile the program
