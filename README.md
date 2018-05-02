@@ -20,10 +20,10 @@ Client: run with
 ```
 "./ftpclient <IP-address> <port-num>"
 ```
-##Issue:
-	Client:
-	1.I did not implement client concurrency. User can only enter next command after the previous command finishes.
-	Server:
+## Issue:
+	* Client:
+	1. Client concurrency is not implemented. User can only enter next command after the previous command finishes.
+	* Server:
 	1.FTP server can accept multiple connection and the same time. However, it can only receive next command until the previous one is done,
 	  which means "ABOR" cannot abort current file transmission.
 
