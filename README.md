@@ -20,7 +20,7 @@ Client: run with
 ```
 "./ftpclient <IP-address> <port-num>"
 ```
-## Issue:
+## Issues:
 * Client:
 Client concurrency is not implemented. User can only enter next command after the previous command finishes.
 * Server:
